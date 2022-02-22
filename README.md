@@ -1,0 +1,2 @@
+# wordle-cook
+Adam Sawicki

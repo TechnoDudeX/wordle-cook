@@ -1,2 +1,2 @@
 # wordle-cook
-Adam Sawicki
+Remixed from Adam Sawicki's wordle.golf project.

@@ -113,7 +113,7 @@ ${ linkBack ? link : ''}`
             ref={textareaRef}
             name="text-wordle"
             onChange={handleChange}
-            rows="9"
+            rows="14"
           />
         </Wordle>
         

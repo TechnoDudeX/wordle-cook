@@ -7,7 +7,7 @@ function App() {
   const chef = '🧑‍🍳';
   const utensils = ' 🍽️ ';
   const burger = '🍔';
-  const link = '\nhttp://wordle.cooking'
+  const link = '\nhttps://wordle.cooking'
   // const par = '4';
 
   const textareaRef = useRef(null);
@@ -67,8 +67,8 @@ function App() {
     const cookedWordle = wordleShort
       .replace(/⬜/g, '💩')
       .replace(/⬛/g, '💩')
-      .replace(/🟨/g, '🍳')
-      .replace(/🟩/g, '🍔');
+      .replace(/🟨/g, '🍋')
+      .replace(/🟩/g, '🍏');
 
     if (wordleLineLength >= 3 && wordle.includes('Wordle ')) {
       wordleNumber = wordle.match(/Wordle (\d+)/)[1];

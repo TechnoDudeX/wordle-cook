@@ -44,19 +44,19 @@ function App() {
       cookScore = 'MICHELIN 5 STAR! 🏆';
       plates = 1;
     } else if (wordle.includes('2/6')) {
-      cookScore = 'GORDAN RAMSAY 🦅';
+      cookScore = 'Chef Curry with the pot 🏀';
       plates = 2;
     } else if (wordle.includes('3/6')) {
-      cookScore = 'GOLDEN BALANCE 🌟';
+      cookScore = 'Now bismillah 🌟';
       plates = 3;
     } else if (wordle.includes('4/6')) {
-      cookScore = 'TikTok recipes FTW 💁‍♂️';
+      cookScore = 'TikTok recipes 💁‍♂️';
       plates = 4;
     } else if (wordle.includes('5/6')) {
       cookScore = 'wow grape 🍇';
       plates = 5;
     } else if (wordle.includes('6/6')) {
-      cookScore = 'Hmmmm lets order takeout? 🤬';
+      cookScore = 'takeout? 🤬';
       plates = 6;
     } else {
       cookScore = 'Food poisoning 🤢🤮';

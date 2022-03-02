@@ -7,7 +7,7 @@ function App() {
   const chef = '🧑‍🍳';
   const utensils = ' 🍽️ ';
   const burger = '🍔';
-  const link = '\nhttps://wordle.cooking'
+  const link = '\nhttp://wordle.cooking'
   // const par = '4';
 
   const textareaRef = useRef(null);
@@ -53,6 +53,7 @@ function App() {
       cookScore = 'TikTok recipes FTW 💁‍♂️';
       plates = 4;
     } else if (wordle.includes('5/6')) {
+      cookScore = 'wow grape 🍇';
       plates = 5;
     } else if (wordle.includes('6/6')) {
       cookScore = 'Hmmmm lets order takeout? 🤬';
@@ -155,14 +156,14 @@ ${ linkBack ? link : ''}`
       </Error>
 
       <Adam>
-        A remix of 
+        Remixed by Mazin based off of 
         {` `}
         <a
           href="https://wordle.golf/"
           target="_blank"
           rel="noreferrer"
         >
-          Adam Sawicki's Wordle project
+          Adam Sawicki's amazing Wordle project
         </a>
       </Adam>
     </Container>
